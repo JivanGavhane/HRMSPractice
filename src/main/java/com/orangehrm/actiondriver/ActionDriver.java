@@ -30,6 +30,8 @@ public class ActionDriver {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(explicitWait));
 		logger.info("WebDriver instance is created.");
 	}
+	
+	//my name is jivan
 
 	// Method to click an element
 	public void click(By by) {
